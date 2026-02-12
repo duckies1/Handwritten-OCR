@@ -1,0 +1,25 @@
+# Core numerical stack
+numpy>=2.1,<2.3
+pandas>=2.2,<2.4
+pyarrow>=15.0.0,<17.0.0
+fastparquet>=2024.5.0
+
+# Image processing
+Pillow>=10.4,<12.0
+opencv-python>=4.9,<4.11
+pdf2image>=1.17.0
+
+# PyTorch
+torch==2.8.0
+torchvision==0.23.0
+
+# Hugging Face stack (VERSION-ALIGNED)
+transformers==4.47.1
+accelerate==1.2.1
+datasets>=2.16.0,<3.0.0
+evaluate>=0.4.1
+jiwer>=3.0.4
+peft>=0.10,<0.13
+
+# Utilities
+typing-extensions>=4.10.0
