@@ -20,6 +20,8 @@ datasets>=2.16.0,<3.0.0
 evaluate>=0.4.1
 jiwer>=3.0.4
 peft>=0.10,<0.13
+huggingface_hub==1.3.3
+
 
 # Utilities
 typing-extensions>=4.10.0
