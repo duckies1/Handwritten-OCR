@@ -10,8 +10,8 @@ import evaluate
 # -----------------------------
 # Config
 # -----------------------------
-MODEL_PATH = "./final"  # Your final model in project root
-TEST_PARQUET = "./Dataset/Test/test.parquet"  # Test dataset
+MODEL_PATH = "./model"  # Your final model in project root
+TEST_PARQUET = "./dataset/Test/test.parquet"  # Test dataset
 MAX_TARGET_LENGTH = 128
 NUM_SAMPLES = 20  # Number of samples to test (set to None for full test set)
 
